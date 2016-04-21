@@ -26,7 +26,7 @@ You can run specs using
 rake spec
 ```
 
-Notes:
+## Notes:
 Any model specified by the constraints in the routes can be tagged. As such, Taggings are polymorphic.
 I chose to use a service object for handling all the business logic to create entities and tags.
 That way, the controller doesn't know anything about it and can be easily maintainable.
